@@ -15,4 +15,9 @@ public class CalculatorTest {
         Calculator calculator = new Calculator(6, 2);
         assertEquals(4, calculator.substract());
     }
+    @Test
+    public void canMultiply(){
+        Calculator calculator = new Calculator(6, 2);
+        assertEquals(12, calculator.multiply());
+    }
 }
